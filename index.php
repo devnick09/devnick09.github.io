@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿
+
+<!DOCTYPE html>
 <html class="no-js" lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -571,7 +573,7 @@
                     <input
                       type="text"
                       class="form-control"
-                      name="contact-name"
+                      name="name"
                       placeholder="Your Name"
                     />
                   </div>
@@ -580,7 +582,7 @@
                     <input
                       type="email"
                       class="form-control"
-                      name="contact-email"
+                      name="email"
                       placeholder="example@mail.com"
                     />
                   </div>
@@ -589,7 +591,7 @@
                     <input
                       type="tel"
                       class="form-control"
-                      name="contact-company"
+                      name="number"
                       placeholder="+91xxxxxxxxxx"
                     />
                   </div>
@@ -597,7 +599,7 @@
                     <button
                       type="submit"
                       class="axil-btn btn-fill-primary btn-fluid btn-primary"
-                      name="submit-btn"
+                      name="submit"
                     >
                       Get Free Quote
                     </button>
@@ -720,6 +722,46 @@
             <h2 class="title">We’ve built solutions for...</h2>
           </div>
           <div class="row">
+            <!-- <div
+              class="col-lg-3 col-6"
+              data-sal="slide-up"
+              data-sal-duration="500"
+            >
+              <div class="brand-grid active">
+                <img src="assets/media/brand/brand-1.png" alt="Brand" />
+              </div>
+            </div> -->
+            <!-- <div
+              class="col-lg-3 col-6"
+              data-sal="slide-up"
+              data-sal-duration="500"
+              data-sal-delay="100"
+            >
+              <div class="brand-grid">
+                <img src="assets/media/brand/brand-2.png" alt="Brand" />
+              </div>
+            </div>
+            <div
+              class="col-lg-3 col-6"
+              data-sal="slide-up"
+              data-sal-duration="500"
+              data-sal-delay="200"
+            >
+              <div class="brand-grid">
+                <img src="assets/media/brand/brand-3.png" alt="Brand" />
+              </div>
+            </div>
+            <div
+              class="col-lg-3 col-6"
+              data-sal="slide-up"
+              data-sal-duration="500"
+              data-sal-delay="500"
+            >
+              <div class="brand-grid">
+                <img src="assets/media/brand/brand-6.png" alt="Brand" />
+              </div>
+            </div> -->
+
             <div
               class="col-lg-3 col-6"
               data-sal="slide-up"
@@ -760,7 +802,7 @@
                 <img src="assets/media/brand/brand-7.png" alt="Brand" />
               </div>
             </div>
-            <div
+            <!-- <div
               class="col-lg-3 col-6"
               data-sal="slide-up"
               data-sal-duration="500"
@@ -779,8 +821,8 @@
               <div class="brand-grid">
                 <img src="assets/media/brand/brand-9.png" alt="Brand" />
               </div>
-            </div>
-            <div
+            </div> -->
+            <!-- <div
               class="col-lg-3 col-6"
               data-sal="slide-up"
               data-sal-duration="500"
@@ -920,7 +962,7 @@
               <div class="brand-grid">
                 <img src="assets/media/brand/brand-30.png" alt="Brand" />
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
         <ul class="list-unstyled shape-group-10">
@@ -1392,5 +1434,8 @@
       data-cf-beacon='{"rayId":"6e82790d7a198ae1","version":"2021.12.0","r":1,"token":"8becb71f42064b6e8f28bb0e0434a79d","si":100}'
       crossorigin="anonymous"
     ></script>
+
+
+    
   </body>
 </html>
